@@ -5,7 +5,7 @@
 
 /*   central container   */
 #central_container{background-color: aqua;}
-#title_price_section{background-color: yellow;}
+#price_container{background-color: yellow;}
 #price_central_section > div{background-color: crimson;}
 #enterprise_central_section{background-color: yellow;}
 
