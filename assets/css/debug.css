@@ -1,0 +1,50 @@
+/*     header     */
+
+
+/*   under header section   */
+
+/*   central container   */
+#central_container{background-color: aqua;}
+#title_price_section{background-color: yellow;}
+#price_central_section > div{background-color: crimson;}
+#enterprise_central_section{background-color: yellow;}
+
+/*   partners    */
+#partners_section{background-color: cyan;}
+#partners_section :first-child{background-color: brown;}
+#partners_section :last-child{background-color: violet;}
+
+/*     operations     */
+#operations_section{background-color: aqua;}
+#title_operations{background-color: yellow;}
+#operations{background-color: aquamarine;}
+.operation{background-color: coral;}
+
+/*     business     */
+#business_section{background-color: aqua;}
+#title_business{background-color: green;}
+#our_clients{background-color: green;}
+
+/*     team     */
+#team_section_container{background-color: darkgoldenrod;}
+#left_team_box, #right_team_box{background-color: coral;}
+#central_team_box{background-color: blue;}
+.tbox{background-color: yellow;}
+
+/*     try it     */
+#try{background-color: green;}
+#try_container{background-color: chartreuse;}
+#text_try{background-color: red;}
+#button_try{background-color: blueviolet;}
+
+/*     questions     */
+#questions_section{background-color: azure;}
+#questions_container{background-color: greenyellow;}
+
+/*     footer         */
+#site_footer{background-color: black;}
+#footer_container{background-color: aqua;}
+#footer_box{background-color: red;}
+#lang_footer{background-color: plum;}
+.box{background-color: greenyellow;}
+
