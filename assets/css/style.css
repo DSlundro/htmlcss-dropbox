@@ -119,7 +119,9 @@ h2{font-size: 50px;}
 #uhs_container .arrow{
     font-size: 40px;
 }
-
+#jumbo > img{
+    width: 800px;
+}
 /*     price     */
 
 #price_container{
