@@ -175,6 +175,13 @@ h4  {font-size: 18px;}
     color: var(--primary);
     text-decoration: underline;
 }
+#prices_options .col-33{
+    width: calc(33.33% - 34px);
+    margin-left: 50px;
+}
+#prices_options .col-33:first-child{
+    margin-left: 0;
+}
 
 /*     partner     */
 #partner_container{
@@ -200,14 +207,23 @@ h4  {font-size: 18px;}
 }
 #operations_box p{
     line-height: 1.5;
-    font-size: 17px;
-    word-spacing: 0.3rem ;
+    font-size: 16px;
 }
 
 .operation{
     margin-bottom: 8rem;
 }
 
+#operations_box .col-33{
+    width: calc(33.33% - 50px);
+    margin-left: 75px;
+}
+#operations_box .col-33:first-child{
+    margin-left: 0;
+}
+#operations_box .col-33:nth-last-child(3){
+    margin-left: 0;
+}
 
 
 /*#endregion*/
