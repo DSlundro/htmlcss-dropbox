@@ -4,19 +4,10 @@
 /*   under header section   */
 
 /*   central container   */
-#price_central_section > div{background-color: crimson;}
-#enterprise_central_section{background-color: yellow;}
 
 /*   partners    */
-#partners_section{background-color: cyan;}
-#partners_section :first-child{background-color: brown;}
-#partners_section :last-child{background-color: violet;}
 
 /*     operations     */
-#operations_section{background-color: aqua;}
-#title_operations{background-color: yellow;}
-#operations{background-color: aquamarine;}
-.operation{background-color: coral;}
 
 /*     business     */
 #business_section{background-color: aqua;}
