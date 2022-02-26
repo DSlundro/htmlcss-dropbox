@@ -9,7 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" 
+          integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" 
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Dropbox</title>
 </head>
 <body>
@@ -71,7 +73,7 @@
                                 Annulla in qualsiasi momento
                             </p>
                             <div class="arrow pt-2">
-                                &#129139;
+                                <i class="fas fa-arrow-down"></i>
                             </div>
                         </div>
                         <div id="jumbo" class="col-60">
@@ -93,32 +95,41 @@
                     </h2>
                     <div id="select_price">
                         <div id="monthly" class="d-ib ">
-                            <input type="radio"> 
-                            <span>Fatturazione mensile</span>
+                            <input type="radio" checked> 
+                            <span class="bold">Fatturazione mensile</span>
                         </div>
                         <div id="yearly" class="d-ib pl-1">
                             <input type="radio"> 
-                            <span class="va-middle">Fatturazione annuale</span>
+                            <span class="bold">Fatturazione annuale</span>
                         </div>
                     </div>
                     <div id="prices_options" class="row">
                         <div class="price col-33 border box_title">
                             <div class="box_title col-100">
-                                <p class="text-center py-0_5 b-border">Singolo</p>
+                                <p class="text-center py-0_5 b-border bold">
+                                    <i class="fa-regular fa-user"></i>
+                                    Singolo
+                                </p>
                                 <div class="col-100 py-2_5 px-2">
                                     <h3>Professional</h3>
                                     <h4 class="py-1">19,99 €</h4>
                                     <p>/mese</p>
                                     <div class="pt-2_5 row">
-                                        <div class="col-5 d-ib">&#128504;</div>
+                                        <div class="col-5 d-ib ss ">
+                                            <i class="fa-regular fa-user"></i>
+                                        </div>
                                         <p class="col-95 d-i">1 utente</p>
                                     </div>
                                     <div class="py-1_5 row">
-                                        <div class="col-5 d-ib">&#128504;</div>
+                                        <div class="col-5 d-ib">
+                                            <i class="fa-regular fa-folder"></i>
+                                        </div>
                                         <p class="col-95 d-i">3 TB di spazio di archiviazione sicuro</p>
                                     </div>
                                     <div class="pb-2 row">
-                                        <div class="col-5 d-ib">&#128504;</div>
+                                        <div class="col-5 d-ib">
+                                            <i class="fa-solid fa-pen"></i>
+                                        </div>
                                         <p class="col-95 d-i">Funzioni di produttività premium e condivisione
                                             file semplice e sicura</p>
                                     </div>
@@ -133,23 +144,33 @@
                                     </div>
                                    <h4 class="row pt-2_5">Punti salienti del piano</h4>
                                     <div class="py-1 row">
-                                        <div class="col-5 true d-ib">&#128504;</div>
+                                        <div class="col-5 true d-ib">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
                                         <p class="col-95 d-i">Invia file fino a 100 GB con Dropbox Transfer</p>
                                     </div>
                                     <div class="py-1 row">
-                                        <div class="col-5 true d-ib">&#128504;</div>
+                                        <div class="col-5 true d-ib">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
                                         <p class="col-95 d-i">Cartelle offline su dispositivi mobili</p>
                                     </div>
                                     <div class="py-1 row">
-                                        <div class="col-5 true d-ib">&#128504;</div>
+                                        <div class="col-5 true d-ib">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
                                         <p class="col-95 d-i">Pulizia remota dell'account</p>
                                     </div>
                                     <div class="py-1 row">
-                                        <div class="col-5 true d-ib">&#128504;</div>
+                                        <div class="col-5 true d-ib">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
                                         <p class="col-95 d-i">Filigrana documento</p>
                                     </div>
                                     <div class="py-1 row">
-                                        <div class="col-5 true d-ib">&#128504;</div>
+                                        <div class="col-5 true d-ib">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
                                         <p class="col-95 d-i">Assistenza prioritaria via email e chat</p>
                                     </div>
                                 </div>
@@ -157,21 +178,30 @@
                         </div>
                         <div class="price col-33 border box_title">
                             <div class="box_title col-100">
-                                <p class="text-center py-0_5 b-border">Team</p>
+                                <p class="text-center py-0_5 b-border bold">
+                                    <i class="fa-regular fa-building"></i> 
+                                    Team
+                                </p>
                                 <div class="col-100 py-2_5 px-2">
                                     <h3>Standard</h3>
                                     <h4 class="py-1">19,99 €</h4>
                                     <p>/mese</p>
                                     <div class="pt-2_5 row">
-                                        <div class="col-5 d-ib">&#128504;</div>
+                                        <div class="col-5 d-ib">
+                                            <i class="fa-solid fa-user-plus"></i>
+                                        </div>
                                         <p class="col-95 d-i">1 utente</p>
                                     </div>
                                     <div class="py-1_5 row">
-                                        <div class="col-5 d-ib">&#128504;</div>
+                                        <div class="col-5 d-ib">
+                                            <i class="fa-regular fa-folder"></i>
+                                        </div>
                                         <p class="col-95 d-i">3 TB di spazio di archiviazione sicuro</p>
                                     </div>
                                     <div class="pb-2 row">
-                                        <div class="col-5 d-ib">&#128504;</div>
+                                        <div class="col-5 d-ib">
+                                            <i class="fa-regular fa-face-smile"></i>
+                                        </div>
                                         <p class="col-95 d-i">Funzioni di produttività premium e condivisione
                                             file semplice e sicura</p>
                                     </div>
@@ -186,27 +216,39 @@
                                     </div>
                                    <h4 class="row pt-2_5">Punti salienti del piano</h4>
                                     <div class="py-1 row">
-                                        <div class="col-5 true d-ib">&#128504;</div>
+                                        <div class="col-5 true d-ib">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
                                         <p class="col-95 d-i">Invia file fino a 100 GB con Dropbox Transfer</p>
                                     </div>
                                     <div class="py-1 row">
-                                        <div class="col-5 true d-ib">&#128504;</div>
+                                        <div class="col-5 true d-ib">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
                                         <p class="col-95 d-i">Cartelle offline su dispositivi mobili</p>
                                     </div>
                                     <div class="py-1 row">
-                                        <div class="col-5 true d-ib">&#128504;</div>
+                                        <div class="col-5 true d-ib">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
                                         <p class="col-95 d-i">Pulizia remota dell'account</p>
                                     </div>
                                     <div class="py-1 row">
-                                        <div class="col-5 true d-ib">&#128504;</div>
+                                        <div class="col-5 true d-ib">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
                                         <p class="col-95 d-i">Filigrana documento</p>
                                     </div>
                                     <div class="py-1 row">
-                                        <div class="col-5 true d-ib">&#128504;</div>
+                                        <div class="col-5 true d-ib">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
                                         <p class="col-95 d-i">Assistenza prioritaria via email e chat</p>
                                     </div>
                                     <div class="py-1 row">
-                                        <div class="col-5 true d-ib">&#128504;</div>
+                                        <div class="col-5 true d-ib">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
                                         <p class="col-95 d-i">Assistenza prioritaria via email e chat</p>
                                     </div>
                                 </div>
@@ -214,21 +256,30 @@
                         </div>
                         <div class="price col-33 border box_title">
                             <div class="box_title col-100">
-                                <p class="text-center py-0_5 b-border">Team</p>
+                                <p class="text-center py-0_5 b-border bold">
+                                    <i class="fa-regular fa-building"></i> 
+                                    Team
+                                </p>
                                 <div class="col-100 py-2_5 px-2">
                                     <h3>Advanced</h3>
                                     <h4 class="py-1">19,99 €</h4>
                                     <p>/mese</p>
                                     <div class="pt-2_5 row">
-                                        <div class="col-5 d-ib">&#128504;</div>
+                                        <div class="col-5 d-ib">
+                                            <i class="fa-solid fa-user-plus"></i>
+                                        </div>
                                         <p class="col-95 d-i">1 utente</p>
                                     </div>
                                     <div class="py-1_5 row">
-                                        <div class="col-5 d-ib">&#128504;</div>
+                                        <div class="col-5 d-ib">
+                                            <i class="fa-regular fa-face-smile"></i>
+                                        </div>
                                         <p class="col-95 d-i">3 TB di spazio di archiviazione sicuro</p>
                                     </div>
                                     <div class="pb-2 row">
-                                        <div class="col-5 d-ib">&#128504;</div>
+                                        <div class="col-5 d-ib">
+                                            <i class="fa-solid fa-pen"></i>
+                                        </div>
                                         <p class="col-95 d-i">Funzioni di produttività premium e condivisione
                                             file semplice e sicura</p>
                                     </div>
@@ -243,27 +294,39 @@
                                     </div>
                                    <h4 class="row pt-2_5">Punti salienti del piano</h4>
                                     <div class="py-1 row">
-                                        <div class="col-5 true d-ib">&#128504;</div>
+                                        <div class="col-5 true d-ib">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
                                         <p class="col-95 d-i">Invia file fino a 100 GB con Dropbox Transfer</p>
                                     </div>
                                     <div class="py-1 row">
-                                        <div class="col-5 true d-ib">&#128504;</div>
+                                        <div class="col-5 true d-ib">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
                                         <p class="col-95 d-i">Cartelle offline su dispositivi mobili</p>
                                     </div>
                                     <div class="py-1 row">
-                                        <div class="col-5 true d-ib">&#128504;</div>
+                                        <div class="col-5 true d-ib">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
                                         <p class="col-95 d-i">Pulizia remota dell'account</p>
                                     </div>
                                     <div class="py-1 row">
-                                        <div class="col-5 true d-ib">&#128504;</div>
+                                        <div class="col-5 true d-ib">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
                                         <p class="col-95 d-i">Filigrana documento</p>
                                     </div>
                                     <div class="py-1 row">
-                                        <div class="col-5 true d-ib">&#128504;</div>
+                                        <div class="col-5 true d-ib">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
                                         <p class="col-95 d-i">Assistenza prioritaria via email e chat</p>
                                     </div>
                                     <div class="py-1 row">
-                                        <div class="col-5 true d-ib">&#128504;</div>
+                                        <div class="col-5 true d-ib">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
                                         <p class="col-95 d-i">Assistenza prioritaria via email e chat</p>
                                     </div>
                                 </div>
@@ -272,7 +335,10 @@
                         
                         <div class="enterprise col-100">
                             <div class="box_title col-100 border">
-                                <p class="text-center py-0_5 b-border">Team</p>
+                                <p class="text-center py-0_5 b-border bold">
+                                    <i class="fa-regular fa-building"></i> 
+                                    Team
+                                </p>
                                 <div class="col-100 row">
                                     <div class="col-70 p-2">
                                         <h3 class=""> Enterprise</h3>
@@ -485,7 +551,7 @@
                         Qual è la differenza tra Dropbox Standard e Dropbox Business Advanced?
                     </p>
                     <p class="col-5 text-right pr-3">
-                        &#129139;
+                        <i class="fa-solid fa-angle-down"></i>
                     </p>
                 </div>
                 <div class="t-border b-border py-2_5 row">
@@ -493,7 +559,7 @@
                         Qual è la differenza tra Dropbox Standard e Dropbox Business Advanced?
                     </p>
                     <p class="col-5 text-right pr-3">
-                        &#129139;
+                        <i class="fa-solid fa-angle-down"></i>
                     </p>
                 </div>
                 <div class="t-border b-border py-2_5 row">
@@ -501,7 +567,7 @@
                         Qual è la differenza tra Dropbox Standard e Dropbox Business Advanced?
                     </p>
                     <p class="col-5 text-right pr-3">
-                        &#129139;
+                        <i class="fa-solid fa-angle-down"></i>
                     </p>
                 </div>
                 <div class="t-border b-border py-2_5 row">
@@ -509,7 +575,7 @@
                         Qual è la differenza tra Dropbox Standard e Dropbox Business Advanced?
                     </p>
                     <p class="col-5 text-right pr-3">
-                        &#129139;
+                        <i class="fa-solid fa-angle-down"></i>
                     </p>
                 </div>
             </div>
@@ -528,19 +594,7 @@
                     </h3>
                     <ul class="menu_footer pt-1">
                         <li><a href="#">Applicazione desktop</a></li>
-                        <li><a href="#">Perché Dropbox</a></li>
-                        <li><a href="#">Piani</a></li>
-                        <li><a href="#">Sicurezza</a></li>
-                        <li><a href="#">Funzioni</a></li>
-                    </ul>
-                </div>
-                <div class="col-20">
-                    <h3>
-                        Prodotti
-                    </h3>
-                    <ul class="menu_footer pt-1">
-                        <li><a href="#">Applicazione desktop</a></li>
-                        <li><a href="#">Perché Dropbox</a></li>
+                        <li><a href="#">App mobili</a></li>
                         <li><a href="#">Piani</a></li>
                         <li><a href="#">Sicurezza</a></li>
                         <li><a href="#">Funzioni</a></li>
@@ -551,11 +605,11 @@
                         Azienda
                     </h3>
                     <ul class="menu_footer pt-1">
-                        <li><a href="#">Applicazione desktop</a></li>
-                        <li><a href="#">Perché Dropbox</a></li>
-                        <li><a href="#">Piani</a></li>
-                        <li><a href="#">Sicurezza</a></li>
-                        <li><a href="#">Funzioni</a></li>
+                        <li><a href="#">Informazioni su Dropbox</a></li>
+                        <li><a href="#">Lavora con noi</a></li>
+                        <li><a href="#">Dicono di noi</a></li>
+                        <li><a href="#">Relazioni con gli investitori</a></li>
+                        <li><a href="#">Blog</a></li>
                     </ul>
                 </div>
                 <div class="col-20">
@@ -563,11 +617,12 @@
                         Supporto
                     </h3>
                     <ul class="menu_footer pt-1">
-                        <li><a href="#">Applicazione desktop</a></li>
-                        <li><a href="#">Perché Dropbox</a></li>
-                        <li><a href="#">Piani</a></li>
-                        <li><a href="#">Sicurezza</a></li>
-                        <li><a href="#">Funzioni</a></li>
+                        <li><a href="#">Centro assistenza</a></li>
+                        <li><a href="#">Contattaci</a></li>
+                        <li><a href="#">Norme sui cookie</a></li>
+                        <li><a href="#">Preferenze cookie e CCPA</a></li>
+                        <li><a href="#">Privacy e Termini</a></li>
+                        <li><a href="#">Mappa del sito</a></li>
                     </ul>
                 </div>
                 <div class="col-20">
@@ -575,18 +630,32 @@
                         Community
                     </h3>
                     <ul class="menu_footer pt-1">
-                        <li><a href="#">Applicazione desktop</a></li>
-                        <li><a href="#">Perché Dropbox</a></li>
-                        <li><a href="#">Piani</a></li>
+                        <li><a href="#">Sviluppatori</a></li>
+                        <li><a href="#">Referral</a></li>
+                        <li><a href="#">Forum</a></li>
+                    </ul>
+                </div>
+                <div class="col-20">
+                    <h3>
+                        Prodotti
+                    </h3>
+                    <ul class="menu_footer pt-1">
+                        <li><a href="#">Plus</a></li>
+                        <li><a href="#">Family</a></li>
+                        <li><a href="#">Professional</a></li>
+                        <li><a href="#">Dropbox Business</a></li>
+                        <li><a href="#">Dropbox Enterprise</a></li>
+                        <li><a href="#">HelloSign</a></li>
                     </ul>
                 </div>
             </div>
             <!-- /#menu_container -->  
-              <div id="lang" class="pt-3 t-border d-ib row">
-                    <div class="col-95">
-                        Italiano
+              <div id="lang" class="pt-3 t-border d-ib">
+                    <div class="d-ib">
+                        <i class="fa-solid fa-earth-americas"></i>
+                        <p class="d-ib">Italiano</p>
                     </div>
-                    <div class="col-5 text-right">&#9650;</div>
+                    <div class="d-ib va-middle"><i class="fa-solid fa-caret-up"></i></div>
               </div>
               <!-- /#lang -->
         </div>

@@ -22,12 +22,13 @@
 
 /*#region                   COMMON*/
 *   {margin: 0;padding: 0;box-sizing: border-box;}
-body{font-family: 'Open Sans', sans-serif; font-weight: bold;}
+body{font-family: 'Open Sans', sans-serif;}
 footer 
 a   {color: white}
 a   {text-decoration: none;}
 li  {list-style: none;}
-p   {font-size: 14px;}
+input{cursor: pointer;}
+p   {font-size: 15px;}
 h1  {font-size: 89px;}
 h2  {font-size: 44px;}
 h3  {font-size: 28px;}
@@ -37,8 +38,8 @@ h4  {font-size: 18px;}
 /*#region                   UTILITY*/
 
 /*     buttons     */
-.btn        {display: inline-block;font-size: 0.9rem;padding: 0.3rem 1.1rem;}
-.btn-full   {display: inline-block; width: 100%; text-align: center; font-size: 0.9rem; padding:  0.5rem 0;}
+.btn        {display: inline-block;font-size: 0.9rem;padding: 0.3rem 1.1rem; font-weight: bold;}
+.btn-full   {display: inline-block; width: 100%; text-align: center; font-size: 0.9rem; padding:  0.5rem 0; font-weight: bold;}
 .btn-color  {background-color: var(--primary);color: var(--lighter);}
 .btn-trasp  {color: var(--dark); border: 1px solid var(--dark);}
 .btn-white  {color: var(--dark); background-color: white;}
@@ -74,7 +75,7 @@ h4  {font-size: 18px;}
 .col-75 {width: 75%;}
 .col-80 {width: 80%;}
 .col-90 {width: 90%;}
-.col-95 {width: 95%;}
+.col-95 {width: 95%; padding-left: 10px;}
 .col-100{width: 100%;}
 
 /*   padding   */
@@ -132,6 +133,8 @@ h4  {font-size: 18px;}
 .width-1080{margin: auto;width: 1080px;}
 .true{color: var(--primary);font-size: 16px; font-weight: bold;}
 .link_u{color: var(--primary);text-decoration: underline;}
+.bold{font-weight: bold;}
+.ss{font-size: 14px;}
 
 /*#endregion*/
 
@@ -207,7 +210,6 @@ h4  {font-size: 18px;}
 }
 #partner_container p{
     line-height: 1.9;
-    letter-spacing: 1px;
 }
 
 /*     operations     */
@@ -286,11 +288,13 @@ h4  {font-size: 18px;}
 }
 #try_it_container h2{
     color: var(--accent);
+
 }
 
 /*     faq      */
 #faq_section{
     height: 720px;
+    font-weight: bold;
 }
 /*#endregion*/
 
@@ -316,5 +320,6 @@ h4  {font-size: 18px;}
     margin-top: 60px;
     color: #666666;
 }
+
 
 /*#endregion*/
