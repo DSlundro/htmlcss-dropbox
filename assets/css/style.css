@@ -23,7 +23,10 @@
 /*#region                   COMMON*/
 *   {margin: 0;padding: 0;box-sizing: border-box;}
 body{font-family: 'Open Sans', sans-serif; font-weight: bold;}
+footer 
+a   {color: white}
 a   {text-decoration: none;}
+li  {list-style: none;}
 p   {font-size: 14px;}
 h1  {font-size: 89px;}
 h2  {font-size: 44px;}
@@ -294,12 +297,24 @@ h4  {font-size: 18px;}
 /*#region                   FOOTER*/
 #site_footer{
     background-color: var(--dark);
-    color: var(--light);
     height: 500px;
 }
+#footer_container{
 
-
-
-
+    width: 1290px;
+}
+#menu_container{
+    color: var(--light);
+    font-size: 14px;
+}
+#menu_container li{
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+#lang{
+    width: 110px;
+    margin-top: 60px;
+    color: #666666;
+}
 
 /*#endregion*/
