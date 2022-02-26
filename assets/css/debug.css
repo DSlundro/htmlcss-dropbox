@@ -14,14 +14,8 @@
 /*     team     */
 
 /*     try it     */
-#try{background-color: green;}
-#try_container{background-color: chartreuse;}
-#text_try{background-color: red;}
-#button_try{background-color: blueviolet;}
 
-/*     questions     */
-#questions_section{background-color: azure;}
-#questions_container{background-color: greenyellow;}
+/*     faq    */
 
 /*     footer         */
 #site_footer{background-color: black;}

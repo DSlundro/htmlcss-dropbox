@@ -1,3 +1,4 @@
+/*#region                   COLORS*/
 :root{
     --dark:           #000000;
     --primary:        #0061ff;
@@ -17,6 +18,7 @@
     --team-lp:        #0D2481;
     --team-cco:       #FFD830;
 }
+/*#endregion*/
 
 /*#region                   COMMON*/
 *   {margin: 0;padding: 0;box-sizing: border-box;}
@@ -35,10 +37,13 @@ h4  {font-size: 18px;}
 .btn        {display: inline-block;font-size: 0.9rem;padding: 0.3rem 1.1rem;}
 .btn-full   {display: inline-block; width: 100%; text-align: center; font-size: 0.9rem; padding:  0.5rem 0;}
 .btn-color  {background-color: var(--primary);color: var(--lighter);}
-.btn-white  {color: var(--dark); border: 1px solid var(--dark);}
+.btn-trasp  {color: var(--dark); border: 1px solid var(--dark);}
+.btn-white  {color: var(--dark); background-color: white;}
 
 /*     align     */
-.col_center-align{position: relative;left: 50%;top: 50%;transform: translate(-50%, -50%);}
+.center-align{position: relative;left: 50%;top: 50%;transform: translate(-50%, -50%);}
+.top-align{ position: relative;top: 50%;transform: translate(0, -50%);}
+.left-align{ position: relative;left: 50%;transform: translate(-50%, 0);}
 .text-left{text-align: left;}
 .text-right{text-align: right;}
 .text-center{text-align: center;}
@@ -118,6 +123,7 @@ h4  {font-size: 18px;}
 /*      border     */
 .border{border: 1px solid var(--border);}
 .b-border{border-bottom: 1px solid var(--border);}
+.t-border{border-top: 1px solid var(--border);}
 
 /*     other     */
 .width-1080{margin: auto;width: 1080px;}
@@ -239,12 +245,25 @@ h4  {font-size: 18px;}
     height: 50%;
     
 }
-#team_container img{
-    width: 100px;
+#team_container .col-30 img{
+    width: 140px;
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);  
+    transform: translate(-50%, -50%);
+    filter: invert(1);
+}
+#team_designit{
+    border: 10px solid #D0E9CD;
+}
+#team_container .col-40{
+    background-color: #F5F5F5;
+}
+#team_container .col-40 img{
+    width: 130px;
+}
+#team_container p{
+    font-size: 17px;
 }
 
 #team_designit   {background-color: var(--team-designit);}
@@ -255,10 +274,32 @@ h4  {font-size: 18px;}
 #team_wbr        {background-color: var(--team-wbr);}
 #team_hearst     {background-color: var(--team-hearst);}
 #team_lp         {background-color: var(--team-lp);}
-#team_cco        {background-color: var(--team-cco);}wbc
+#team_cco        {background-color: var(--team-cco);}
 
+/*     try it     */
+#try_it_section{
+    background-color: #b4d0e7;
+    height: 360px;
+}
+#try_it_container h2{
+    color: var(--accent);
+}
+
+/*     faq      */
+#faq_section{
+    height: 720px;
+}
 /*#endregion*/
 
+/*#region                   FOOTER*/
+#site_footer{
+    background-color: var(--dark);
+    color: var(--light);
+    height: 500px;
+}
 
 
 
+
+
+/*#endregion*/
