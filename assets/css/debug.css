@@ -10,15 +10,8 @@
 /*     operations     */
 
 /*     business     */
-#business_section{background-color: aqua;}
-#title_business{background-color: green;}
-#our_clients{background-color: green;}
 
 /*     team     */
-#team_section_container{background-color: darkgoldenrod;}
-#left_team_box, #right_team_box{background-color: coral;}
-#central_team_box{background-color: blue;}
-.tbox{background-color: yellow;}
 
 /*     try it     */
 #try{background-color: green;}
