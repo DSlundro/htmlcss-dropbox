@@ -184,7 +184,7 @@ h4      {font-size: 18px;}
 
 /*#region                   HEADER*/
 .nav img{
-    height: 18px;
+    vertical-align: middle;
 }
 .nav > li{
     display: inline-block;
@@ -202,7 +202,7 @@ h4      {font-size: 18px;}
     top: 52px;
     display: none;
 }
-.sub_menu:hover{
+.hidden:hover .sub_menu{
     display: block;
 }
 .sub{
@@ -217,9 +217,11 @@ h4      {font-size: 18px;}
     cursor: pointer;
 }
 .sub > .bold:hover{background-color: var(--sub-nav);}
-.logo :hover{background-color: initial;}
 
-
+#menu_right_bar .sub_menu{
+    text-align: left;
+    right: 0;
+}
 
 
 /*#endregion*/
@@ -278,6 +280,22 @@ h4      {font-size: 18px;}
 }
 #prices_options .col-33:first-child{
     margin-left: 0;
+}
+.radio_l{
+    appearance: initial;
+    width: 20px;
+    height: 20px;
+    border: 5px solid var(--primary);
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.radio_r{
+    appearance: initial;
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--border);
+    border-radius: 50%;
+    vertical-align: middle;
 }
 
 /*     partner     */
